@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3">
   <diagram name="Page-1" id="16e2658f-23c8-b752-8be9-c03fbebb8bbe">
-    <mxGraphModel dx="5187" dy="2651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4868" dy="2466" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,7 +264,7 @@
           <mxGeometry x="-339" y="-520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cda-xtkdQyc-22jT7-j7-4" value="x2&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1157" y="411" width="78" height="30" as="geometry" />
+          <mxGeometry x="1163" y="507" width="78" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ep2YVYqqkbM7Vx0XVLMD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#6C8EBF;startArrow=classic;startFill=1;" parent="1" source="Ep2YVYqqkbM7Vx0XVLMD-1" target="Ep2YVYqqkbM7Vx0XVLMD-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -431,7 +431,7 @@
           <mxGeometry x="-1512" y="-70" width="298" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G4-CwIW-luVbZtVt5-_L-4" value="Pilotage moteur CC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-455.5" y="-624" width="298" height="30" as="geometry" />
+          <mxGeometry x="-453" y="-614" width="298" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G4-CwIW-luVbZtVt5-_L-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;arcSize=25;" parent="1" vertex="1">
           <mxGeometry x="-1687" y="-12" width="621" height="514" as="geometry" />
@@ -492,6 +492,18 @@
         </mxCell>
         <mxCell id="dPl0q5WNrdIm2W-NPK94-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;DFR1025&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="704" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPl0q5WNrdIm2W-NPK94-4" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;i&gt;Consommation total des deux moteurs :&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;i&gt;0.8A à 3V&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;&lt;i&gt;2.4W&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="-478" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPl0q5WNrdIm2W-NPK94-5" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Consommation&amp;nbsp; :&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;70mA en utilisation 0.23W&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;20 mA au repos&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1706" y="15" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPl0q5WNrdIm2W-NPK94-6" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Consommation&amp;nbsp; :&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;1mA 0.0033W&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1754" y="859" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPl0q5WNrdIm2W-NPK94-8" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Consommation&amp;nbsp; :&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Pire cas pour les deux moteur :&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;3.52A 5.3W&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="196" y="183" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
