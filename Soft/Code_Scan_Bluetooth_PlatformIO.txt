@@ -1,0 +1,27 @@
+#include "BluetoothSerial.h"
+
+BluetoothSerial SerialBT;
+
+void setup() {
+    Serial.begin(115200);
+    Serial.println("ESP32 Démarré !");
+    SerialBT.begin("ESP32_Scanner"); // Nom Bluetooth de l'ESP32
+
+    Serial.println("Scan Bluetooth en cours...");
+
+    SerialBT.discoverAsync([](BTAdvertisedDevice* device) {
+        Serial.printf("Périphérique trouvé : %s - Adresse MAC : %s\n",
+                      device->getName().c_str(),
+                      device->getAddress().toString().c_str());
+        
+        // Vérifie si la manette PS4 est détectée (nom ou adresse MAC)
+        if (device->getName() == "Wireless Controller") {
+            Serial.println("Manette PS4 détectée !");
+        }
+    }, 10000);  // 10 secondes de scan
+}
+
+void loop() {
+    // Rien à faire dans la boucle, le scan est asynchrone
+    delay(5000);
+}
