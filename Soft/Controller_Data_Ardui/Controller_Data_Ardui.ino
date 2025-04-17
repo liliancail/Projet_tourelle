@@ -1,4 +1,14 @@
 #include <Bluepad32.h>
+#include <stdio.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "driver/gpio.h"
+#include "driver/adc.h"
+#include "esp_rom_sys.h"
+
+#define STEP1  23
+#define DIR1   5
+
 
 ControllerPtr myControllers[BP32_MAX_GAMEPADS];
 
@@ -245,6 +255,11 @@ void processControllers() {
 
 // Arduino setup function. Runs in CPU 1
 void setup() {
+
+    pinMode(DIR1, OUTPUT);
+    pinMode(STEP1, OUTPUT);
+   
+
     Serial.begin(115200);
     Serial.printf("Firmware: %s\n", BP32.firmwareVersion());
     const uint8_t* addr = BP32.localBdAddress();
