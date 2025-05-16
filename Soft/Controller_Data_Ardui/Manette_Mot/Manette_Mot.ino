@@ -1,3 +1,4 @@
+
 #include <Bluepad32.h>
 #include <AccelStepper.h>
 
@@ -161,3 +162,5 @@ void loop() {
     processControllers();
     delay(50);  // un petit délai pour éviter de surcharger le port série
 }
+Manette_Mot.ino
+5 Ko
