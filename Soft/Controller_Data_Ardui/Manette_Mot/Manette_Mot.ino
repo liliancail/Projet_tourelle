@@ -94,7 +94,7 @@ void processGamepad(ControllerPtr ctl) {
             joyX = rawJoyX - joyX_offset;
         }
     }
-        stepper1.stop();
+       
         Serial.println("Joystick neutre, moteur arrêté");
 
 
@@ -162,5 +162,3 @@ void loop() {
     processControllers();
     delay(50);  // un petit délai pour éviter de surcharger le port série
 }
-Manette_Mot.ino
-5 Ko
